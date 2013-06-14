@@ -4,19 +4,21 @@
 # these.
 
 gitalias a='git add'
+gitalias ss='git status'
 gitalias b='git branch'
-gitalias c='git checkout'
-gitalias d='git diff'
+gitalias ck='git checkout'
+gitalias cm='git commit -m'
+gitalias di='git diff'
 gitalias f='git fetch --prune'
-gitalias k='git cherry-pick'
-gitalias l='git log --pretty=oneline --abbrev-commit'
+gitalias pk='git cherry-pick'
+gitalias lg='git log --pretty=oneline --abbrev-commit'
 gitalias n='git commit --verbose --amend'
 gitalias r='git remote'
-gitalias s='git commit --dry-run --short'
+gitalias cs='git commit --dry-run --short'
 gitalias t='git diff --cached'
 
 # git add and the staging area
-gitalias a='git add'
+gitalias ad='git add'
 gitalias aa='git add --update'          # mnemonic: "add all"
 gitalias stage='git add'
 gitalias ap='git add --patch'
@@ -39,7 +41,7 @@ gitalias pm='git pull'          # mnemonic: pull merge
 gitalias pr='git pull --rebase' # mnemonic: pull rebase
 
 # git diff
-gitalias d='git diff'
+gitalias di='git diff'
 gitalias ds='git diff --stat'    # mnemonic: "diff stat"
 
 # git reset

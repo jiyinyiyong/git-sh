@@ -19,6 +19,13 @@ interaction:
   * Runs on top of normal bash (`~/.bashrc`) and
     readline (`~/.inputrc`) configurations.
 
+A fork by JiyinYiyong
+------------
+
+As some aliases are conflicted with my Bashmarks so I changed some aliases here.
+
+It's really upset to see Bash doesn't support something like namespace, or modules.
+
 Installation
 ------------
 
